@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Example Webpage</title>
+        <link rel="icon" type="image/png" href="image.png">		 <!--For icon on Title-->
+    </head>
+    <body>							<!--Has example of all HTML tags-->
+        <header>  
+            <nav>  </nav>
+        </header>
+            <b><h1> Welcome to the page (in bold,h1 tags) !! </h1></b>
+            <big><h1><i> Using italic,big tags in h1 !</i></h1></big>
+            <a href="Structure.html" target="_blank">
+            Click here for structure of a webpage ! (anchor tag) </a>
+            <br></br>
+            <center>This is center tag (after br tag)</center>
+            <a href="#interview">Click here to go to interview section</a>	<!--Internal Link-->
+            <a href="#doc">Click here to go to cheat sheet</a>
+        <section>
+            <dl>
+                <dt><big><tt>Term (in monospace)</tt></big></dt>
+                <dd>This is definition in a dl list</dd>
+            </dl>
+        </section>
+        <h3>This is an example of <em>emphasis</em> tag in h3</h3>
+        <section>
+            <embed src="rec.mp3"> Using embed tag </embed>			<!--Simple embedding-->
+        </section>
+        <section>
+            <font face="Gotham" size="32" color="red">This is red Gotham font tag size 32</font>
+        </section>
+        <section>
+            <figure>
+            <img src="img.jpg" width="50%" height="40%"border="2"/>		<!--Image and caption-->
+            <figcaption>This is a quote in an image</figcaption>
+            </figure>
+
+        </section>
+        <section>
+            <div id="interview"><font face="Berlin" size="24">
+            As you know, the use of materials had started from the time of Adam and Eve. People wanted to protect themselves. From Stone Age onwards they started developing weapons. Slowly metals were used. Now we are much ahead in technology. We are now developing nano sized materials as smaller size gives better performance. People are trying various combinations of metals to bring out better materials with better properties, which will be used in various industries. Still various areas are under development. The best development is in the field of computer science. Memory storage has gone into nano size and miniaturized the electronic items. For easy handling of any material we need it to be light weight, high strength and more powerful. Materials are plenty, so further development in technology is required.</font></div><!--Interview-->
+        </section>
+        <section>		
+            <table>			<!--Simple table-->
+                <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Place</th>
+                </tr>
+                <tr>
+                <td>AAaa</td>
+                <td>Space</td>
+                <td>Trichy</td>
+                </tr>
+                <tr>
+                <td>BBbb</td>
+                <td>Medicine</td>
+                <td>Chennai</td>
+                </tr>
+                </table>
+        </section>
+        <section>
+            In frame objects		<!--In frame objects, such as doc,video,audio,etc..-->
+            <div id="doc"> <center>A document</center>
+            <object type="pdf"><center>
+                <iframe name="document"src="sheet.pdf"height="80%" width="90%" ></center>
+                </iframe>
+            </object>
+            </div>
+        </section>
+        <aside> 
+            <form ><div>&nbsp;</div>A form !!<div>&nbsp;</div>		<!--Simple form submission-->
+                Name: <input name="Name" value="" size="20"><br>
+                Email: <input name="Email" value="" size="10"><br>
+                <center><input type="submit" onclick="alert('****  THANK YOU !! ****');"></center> <!--Simple javascript response-->
+            </form>
+            <hr width="70%" color="blue" size="10"/>
+        </aside>
+        <video src="vid.gif" width="80%" height="40%" controls="true">		<!--video tag-->
+        </video>
+        <audio src="rec.mp3#t=10" autoplay="true" width="50%"controls="true">	<!--audio tag-->
+        	Audio file
+        </audio>
+        <footer> </footer>
+    </body>
+</html>
